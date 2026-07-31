@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md. Shadikulla Sarker |JKKNIU ESE Student</title>
+<meta name="description" content="Md. Shadikulla Sarker — Environmental Science &amp; Engineering Student. Portfolio, education, skills and projects.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ambient floating leaves layer -->
+<div class="leaf-layer" id="leafLayer" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <nav class="nav container">
+    <a href="#home" class="brand">
+      <span class="brand-mark">🌿</span>
+      <span data-en="Md.Shadik" data-bn="SM">SM</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-en="Home" data-bn="হোম">হোম</a></li>
+      <li><a href="#about" data-en="About" data-bn="পরিচিতি">পরিচিতি</a></li>
+      <li><a href="#education" data-en="Education" data-bn="শিক্ষা">শিক্ষা</a></li>
+      <li><a href="#courses" data-en="Courses" data-bn="কোর্স">কোর্স</a></li>
+      <li><a href="#skills" data-en="Skills" data-bn="দক্ষতা">দক্ষতা</a></li>
+      <li><a href="#certificates" data-en="Certificates" data-bn="সনদপত্র">সনদপত্র</a></li>
+      <li><a href="#projects" data-en="Projects" data-bn="প্রজেক্ট">প্রজেক্ট</a></li>
+      <li><a href="#contact" data-en="Contact" data-bn="যোগাযোগ">যোগাযোগ</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <div class="search-box">
+        <button class="icon-btn" id="searchToggle" aria-label="Search">🔍</button>
+        <input type="text" id="searchInput" class="search-input" placeholder="খুঁজুন... / Search...">
+      </div>
+      <button class="icon-btn" id="langToggle" aria-label="Switch language">বাং/EN</button>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+</header>
+
+<main id="searchable-content">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg" aria-hidden="true">
+    <svg class="growing-tree" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="tree-trunk" d="M200 500 L200 320 C200 300 180 290 175 270 M200 320 C200 300 220 290 225 265" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+      <path class="tree-branch b1" d="M198 400 C170 390 150 370 130 350" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      <path class="tree-branch b2" d="M202 400 C230 390 250 370 270 345" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      <path class="tree-branch b3" d="M199 350 C180 330 165 305 155 280" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      <path class="tree-branch b4" d="M201 350 C220 330 238 305 250 278" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      <path class="tree-branch b5" d="M197 280 C185 260 178 240 175 220" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+      <path class="tree-branch b6" d="M203 280 C215 260 222 240 225 220" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+      <g class="tree-leaves">
+        <circle cx="130" cy="345" r="14"/><circle cx="270" cy="340" r="16"/>
+        <circle cx="155" cy="275" r="13"/><circle cx="250" cy="273" r="14"/>
+        <circle cx="175" cy="215" r="15"/><circle cx="225" cy="215" r="15"/>
+        <circle cx="200" cy="195" r="18"/><circle cx="165" cy="255" r="10"/>
+        <circle cx="238" cy="252" r="11"/><circle cx="145" cy="365" r="9"/>
+        <circle cx="258" cy="360" r="10"/>
+      </g>
+    </svg>
+    <svg class="earth-orbit" viewBox="0 0 120 120" aria-hidden="true">
+      <circle class="earth-body" cx="60" cy="60" r="46"/>
+      <g class="earth-continents">
+        <path d="M35 40c8-6 18-4 22 2 5 7-2 12-10 10-6-1-16-6-12-12z"/>
+        <path d="M70 55c10 0 18 8 15 16-3 7-14 8-20 2-5-5-3-18 5-18z"/>
+        <path d="M45 78c6-3 14 0 15 6 1 5-6 8-12 6-5-2-8-9-3-12z"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="container hero-inner">
+    
+    <h1 class="hero-name">Md.Shadikulla Sarker</h1>
+    <p class="hero-role" data-en="Environmental Science &amp; Engineering Student" data-bn="এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং শিক্ষার্থী"> এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং শিক্ষার্থী</p>
+    <p class="hero-profile" data-en="I m a dedicated Environmental Science and Engineering student with a passion for environmental conservation and sustainable development. Quick learner with strong analytical, communication, and teamwork skills. Seeking opportunities to apply academic knowledge while gaining practical experience and contributing to organizational success." data-bn="আমি পরিবেশ সংরক্ষণ ও টেকসই উন্নয়নের প্রতি গভীর আগ্রহ সম্পন্ন একজন নিবেদিতপ্রাণ এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং শিক্ষার্থী। শক্তিশালী বিশ্লেষণাত্মক, যোগাযোগ ও টিমওয়ার্ক দক্ষতা সম্পন্ন দ্রুত শিক্ষার্থী। একাডেমিক জ্ঞান প্রয়োগ করে ব্যবহারিক অভিজ্ঞতা অর্জন এবং প্রতিষ্ঠানের সাফল্যে অবদান রাখার সুযোগ খুঁজছি।">
+      আমি পরিবেশ সংরক্ষণ ও টেকসই উন্নয়নের প্রতি গভীর আগ্রহ সম্পন্ন একজন নিবেদিতপ্রাণ এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং শিক্ষার্থী। শক্তিশালী বিশ্লেষণাত্মক, যোগাযোগ ও টিমওয়ার্ক দক্ষতা সম্পন্ন দ্রুত শিক্ষার্থী। একাডেমিক জ্ঞান প্রয়োগ করে ব্যবহারিক অভিজ্ঞতা অর্জন এবং প্রতিষ্ঠানের সাফল্যে অবদান রাখার সুযোগ খুঁজছি।
+    </p>
+
+    <div class="hero-photo-frame">
+      <img src="s.jpg" alt="Md. Shadikulla Sarker" id="profilePhoto" onerror="this.classList.add('img-missing')">
+      <div class="frame-fallback" aria-hidden="true">🌱</div>
+    </div>
+
+    <div class="hero-actions">
+      <a href="PROFILE.pdf" class="btn btn-primary ripple-btn" download data-en="Download CV" data-bn="সিভি ডাউনলোড করুন">সিভি ডাউনলোড করুন</a>
+      <a href="#contact" class="btn btn-outline ripple-btn" data-en="Contact Me" data-bn="যোগাযোগ করুন">যোগাযোগ করুন</a>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section-eyebrow" data-en="About" data-bn="পরিচিতি">পরিচিতি</p>
+    <h2 class="section-title" data-en="A little about me" data-bn="আমার সম্পর্কে কিছু কথা">আমার সম্পর্কে কিছু কথা</h2>
+
+    <div class="about-grid">
+      <div class="about-text" data-editable>
+        <p data-en="[I am an undergraduate student in Environmental Science and Engineering at Jatiya Kabi Kazi Nazrul Islam University, with a strong passion for environmental conservation and sustainable development. I enjoy learning new concepts, solving problems, and continuously improving my knowledge and skills.
+
+I am a quick learner with strong communication, teamwork, leadership, and presentation abilities. I am proficient in MS Excel, Microsoft Word, PowerPoint, Canva, HTML, CSS, and C programming. I am eager to apply my academic knowledge in real-world environments, gain practical experience, and contribute effectively to organizational success while growing both personally and professionally..]"
+           data-bn="আমি জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়ের পরিবেশ বিজ্ঞান ও প্রকৌশল (Environmental Science and Engineering) বিভাগের একজন স্নাতক পর্যায়ের শিক্ষার্থী। পরিবেশ সংরক্ষণ এবং টেকসই উন্নয়ন (Sustainable Development)-এর প্রতি আমার গভীর আগ্রহ রয়েছে। নতুন বিষয় শেখা, সমস্যা সমাধান করা এবং নিয়মিতভাবে নিজের জ্ঞান ও দক্ষতা উন্নত করতে আমি সবসময় আগ্রহী।
+
+আমি একজন দ্রুত শেখার সক্ষমতাসম্পন্ন ব্যক্তি এবং আমার যোগাযোগ দক্ষতা, দলগতভাবে কাজ করার সক্ষমতা, নেতৃত্ব প্রদান এবং উপস্থাপনা (Presentation) করার দক্ষতা রয়েছে। এছাড়া আমি MS Excel, Microsoft Word, PowerPoint, Canva, HTML, CSS এবং C Programming-এ দক্ষ।
+
+আমি বাস্তব কর্মপরিবেশে আমার একাডেমিক জ্ঞান প্রয়োগ করতে, ব্যবহারিক অভিজ্ঞতা অর্জন করতে এবং প্রতিষ্ঠানের সফলতায় কার্যকরভাবে অবদান রাখতে আগ্রহী। একই সঙ্গে ব্যক্তিগত ও পেশাগতভাবে নিজেকে আরও দক্ষ ও সমৃদ্ধ করে তুলতে প্রতিশ্রুতিবদ্ধ।">
+          
+        </p>
+        <p data-en="[JATIYA KABI KAZI NAJRUL ISLAM UNIVERSITY]" data-bn="বর্তমানে আমি [জাতীয় কবি কাজি নজরুল ইসলাম বিশ্ববিদ্যালয়] -এ এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং বিভাগে অধ্যয়নরত আছি।">
+          বর্তমানে আমি [জাতীয় কবি কাজি নজরুল ইসলাম বিশ্ববিদ্যালয়] -এ এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং বিভাগে অধ্যয়নরত আছি।
+        </p>
+
+        <h3 class="mini-heading" data-en="Career Goal" data-bn="ক্যারিয়ার লক্ষ্য">ক্যারিয়ার লক্ষ্য</h3>
+        <p data-en="[To build a successful career in Environmental Science and Engineering by applying my technical knowledge, problem-solving skills, and research abilities to promote sustainable development and environmental protection while continuously improving my professional expertise]" data-bn="পরিবেশ বিজ্ঞান ও প্রকৌশল (Environmental Science and Engineering) ক্ষেত্রে একটি সফল ক্যারিয়ার গড়ে তোলা, যেখানে আমার কারিগরি জ্ঞান, সমস্যা সমাধানের দক্ষতা এবং গবেষণামূলক সক্ষমতা কাজে লাগিয়ে টেকসই উন্নয়ন ও পরিবেশ সংরক্ষণে কার্যকর অবদান রাখতে পারি। পাশাপাশি, ধারাবাহিকভাবে আমার পেশাগত দক্ষতা ও অভিজ্ঞতা উন্নত করে একজন দক্ষ ও দায়িত্বশীল পরিবেশ পেশাজীবী হিসেবে নিজেকে প্রতিষ্ঠিত করতে চাই।">
+          
+        </p>
+
+        <h3 class="mini-heading" data-en="Interests" data-bn="আগ্রহের বিষয়">আগ্রহের বিষয়</h3>
+        <div class="tag-row">
+          <span class="tag" data-en="Climate Change" data-bn="জলবায়ু পরিবর্তন">জলবায়ু পরিবর্তন</span>
+          <span class="tag" data-en="GIS" data-bn="জিআইএস">জিআইএস</span>
+          <span class="tag" data-en="Water Resources" data-bn="পানি সম্পদ">পানি সম্পদ</span>
+          <span class="tag" data-en="Renewable Energy" data-bn="নবায়নযোগ্য জ্বালানি">নবায়নযোগ্য জ্বালানি</span>
+          <span class="tag" data-en="Waste Management" data-bn="বর্জ্য ব্যবস্থাপনা">বর্জ্য ব্যবস্থাপনা</span>
+        </div>
+      </div>
+
+      <div class="about-visual" aria-hidden="true">
+        <svg viewBox="0 0 200 200" class="ripple-graphic" id="rippleGraphic">
+          <circle cx="100" cy="100" r="90" class="ripple r1"/>
+          <circle cx="100" cy="100" r="60" class="ripple r2"/>
+          <circle cx="100" cy="100" r="30" class="ripple r3"/>
+          <text x="100" y="108" text-anchor="middle" class="ripple-emoji">💧</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="achievements" id="achievements">
+      <div class="achievement-card">
+        <span class="achievement-num" data-target="1">0</span>
+        <span class="achievement-label" data-en="Years of Study" data-bn="বছর অধ্যয়ন">বছর অধ্যয়ন</span>
+      </div>
+      <div class="achievement-card">
+        <span class="achievement-num" data-target="10">0</span>
+        <span class="achievement-label" data-en="Courses Completed" data-bn="সম্পন্ন কোর্স">সম্পন্ন কোর্স</span>
+      </div>
+      <div class="achievement-card">
+        <span class="achievement-num" data-target="3">0</span>
+        <span class="achievement-label" data-en="Projects" data-bn="প্রজেক্ট">প্রজেক্ট</span>
+      </div>
+      <div class="achievement-card">
+        <span class="achievement-num" data-target="3">0</span>
+        <span class="achievement-label" data-en="Certificates" data-bn="সনদপত্র">সনদপত্র</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    <p class="section-eyebrow" data-en="Education" data-bn="শিক্ষা">শিক্ষা</p>
+    <h2 class="section-title" data-en="Academic journey" data-bn="একাডেমিক পথচলা">একাডেমিক পথচলা</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">[2026]</span>
+          <h3 data-en="University — B.Sc. in Environmental Science &amp; Engineering" data-bn="বিশ্ববিদ্যালয় — বি.এসসি. ইন এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং">বিশ্ববিদ্যালয় — বি.এসসি. ইন এনভায়রনমেন্টাল সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং</h3>
+          <p data-en="[JATIYA KABI KAZI NAJRUL ISLAM UNIVERSITY] · Current CGPA: [X.XX] · Expected Graduation: [2030]" data-bn="[জাতীয় কবি কাজি নজরুল ইসলাম বিশ্ববিদ্যালয়] · বর্তমান সিজিপিএ: [X.XX] · প্রত্যাশিত গ্র্যাজুয়েশন: [2030]">[জাতীয় কবি কাজি নজরুল ইসলাম বিশ্ববিদ্যালয়] · বর্তমান সিজিপিএ: [X.XX] · প্রত্যাশিত গ্র্যাজুয়েশন: [2030]</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">[2025]</span>
+          <h3 data-en="Higher Secondary Certificate (HSC)" data-bn="উচ্চ মাধ্যমিক সার্টিফিকেট (এইচএসসি)">উচ্চ মাধ্যমিক সার্টিফিকেট (এইচএসসি)</h3>
+          <p data-en="[Shahid Syed Nazrul Islam college mymensingh] · GPA: [4.33]" data-bn="[শহীদ সৈয়দ নজরুল ইসলাম কলেজ ময়মনসিংহ] · জিপিএ: [4.33]">[শহীদ সৈয়দ নজরুল ইসলাম কলেজ ময়মনসিংহ] · জিপিএ: [4.33]</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">[2023]</span>
+          <h3 data-en="Secondary School Certificate (SSC)" data-bn="মাধ্যমিক স্কুল সার্টিফিকেট (এসএসসি)">মাধ্যমিক স্কুল সার্টিফিকেট (এসএসসি)</h3>
+          <p data-en="[Govt. Islampur Nekjahan Pilot Model Highschool] · GPA: [5.00]" data-bn="[স্কুলের নাম] · জিপিএ: [5.00]">[সরকারি ইসলামপুর নেকজাহান পাইলট মডেল হাইস্কুল] · জিপিএ: [5.00]</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COURSES ============ -->
+<section class="section" id="courses">
+  <div class="container">
+    <p class="section-eyebrow" data-en="Courses" data-bn="কোর্স">কোর্স</p>
+    <h2 class="section-title" data-en="Key courses I've studied" data-bn="গুরুত্বপূর্ণ কোর্সসমূহ">গুরুত্বপূর্ণ কোর্সসমূহ</h2>
+
+    <div class="course-grid">
+      <div class="course-card">
+        <span class="course-icon">🧪</span>
+        <h3 data-en="Environmental Chemistry" data-bn="এনভায়রনমেন্টাল কেমিস্ট্রি">এনভায়রনমেন্টাল কেমিস্ট্রি</h3>
+      </div>
+      <div class="course-card">
+        <span class="course-icon">🌱</span>
+        <h3 data-en="Ecology" data-bn="ইকোলজি">ইকোলজি</h3>
+      </div>
+      <div class="course-card">
+        <span class="course-icon">💧</span>
+        <h3 data-en="Hydrology" data-bn="হাইড্রোলজি">হাইড্রোলজি</h3>
+      </div>
+      <div class="course-card">
+        <span class="course-icon">🗺️</span>
+        <h3 data-en="GIS &amp; Remote Sensing" data-bn="জিআইএস অ্যান্ড রিমোট সেন্সিং">জিআইএস অ্যান্ড রিমোট সেন্সিং</h3>
+      </div>
+      <div class="course-card">
+        <span class="course-icon">📋</span>
+        <h3 data-en="Environmental Impact Assessment" data-bn="এনভায়রনমেন্টাল ইমপ্যাক্ট অ্যাসেসমেন্ট">এনভায়রনমেন্টাল ইমপ্যাক্ট অ্যাসেসমেন্ট</h3>
+      </div>
+      <div class="course-card">
+        <span class="course-icon">♻️</span>
+        <h3 data-en="Waste Management" data-bn="বর্জ্য ব্যবস্থাপনা">বর্জ্য ব্যবস্থাপনা</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="section-eyebrow" data-en="Skills" data-bn="দক্ষতা">দক্ষতা</p>
+    <h2 class="section-title" data-en="What I bring to the table" data-bn="আমার দক্ষতাসমূহ">আমার দক্ষতাসমূহ</h2>
+
+    <div class="skills-grid">
+      <div class="skills-col">
+        <h3 class="mini-heading" data-en="Technical Skills" data-bn="টেকনিক্যাল দক্ষতা">টেকনিক্যাল দক্ষতা</h3>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="MS Excel" data-bn="এমএস এক্সেল">এমএস এক্সেল</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="MS Word" data-bn="এমএস ওয়ার্ড">এমএস ওয়ার্ড</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="PowerPoint" data-bn="পাওয়ারপয়েন্ট">পাওয়ারপয়েন্ট</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="Canva" data-bn="ক্যানভা">ক্যানভা</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="50">
+          <div class="skill-bar-top"><span>HTML</span><span class="skill-percent">50%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="30">
+          <div class="skill-bar-top"><span>CSS</span><span class="skill-percent">30%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+         <div class="skill-bar" data-percent="40">
+          <div class="skill-bar-top"><span>C</span><span class="skill-percent">40%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="skills-col">
+        <h3 class="mini-heading" data-en="Soft Skills" data-bn="সফট স্কিলস">সফট স্কিলস</h3>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="Communication" data-bn="যোগাযোগ">যোগাযোগ</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="Teamwork" data-bn="টিমওয়ার্ক">টিমওয়ার্ক</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="Leadership" data-bn="নেতৃত্ব">নেতৃত্ব</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-percent="70">
+          <div class="skill-bar-top"><span data-en="Presentation" data-bn="উপস্থাপনা">উপস্থাপনা</span><span class="skill-percent">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+      </div>
+  
+</section>
+
+<!-- ============ CERTIFICATES ============ -->
+<section class="section" id="certificates">
+  <div class="container">
+    <p class="section-eyebrow" data-en="Certificates" data-bn="সনদপত্র">সনদপত্র</p>
+    <h2 class="section-title" data-en="Certifications &amp; training" data-bn="সনদপত্র ও প্রশিক্ষণ">সনদপত্র ও প্রশিক্ষণ</h2>
+
+    <div class="cert-grid">
+      <div class="cert-card">
+        <span class="cert-icon">📜</span>
+        <h3 data-en="[Certificate Title]" data-bn="[সনদের শিরোনাম]">[সনদের শিরোনাম]</h3>
+        <p data-en="[Issuing Organization · Year]" data-bn="[প্রদানকারী প্রতিষ্ঠান · সাল]">[প্রদানকারী প্রতিষ্ঠান · সাল]</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-icon">📜</span>
+        <h3 data-en="[Certificate Title]" data-bn="[সনদের শিরোনাম]">[সনদের শিরোনাম]</h3>
+        <p data-en="[Issuing Organization · Year]" data-bn="[প্রদানকারী প্রতিষ্ঠান · সাল]">[প্রদানকারী প্রতিষ্ঠান · সাল]</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-icon">📜</span>
+        <h3 data-en="[Certificate Title]" data-bn="[সনদের শিরোনাম]">[সনদের শিরোনাম]</h3>
+        <p data-en="[Issuing Organization · Year]" data-bn="[প্রদানকারী প্রতিষ্ঠান · সাল]">[প্রদানকারী প্রতিষ্ঠান · সাল]</p>
+      </div>
+    
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <p class="section-eyebrow" data-en="Projects" data-bn="প্রজেক্ট">প্রজেক্ট</p>
+    <h2 class="section-title" data-en="Selected projects" data-bn="নির্বাচিত প্রজেক্টসমূহ">নির্বাচিত প্রজেক্টসমূহ</h2>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-thumb">🌍</div>
+        <div class="project-body">
+          <h3 data-en="[Project Title]" data-bn="[প্রজেক্টের শিরোনাম]">[প্রজেক্টের শিরোনাম]</h3>
+         
+          <a href="#" class="project-link" data-en="View details →" data-bn="বিস্তারিত দেখুন →">বিস্তারিত দেখুন →</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">💧</div>
+        <div class="project-body">
+          <h3 data-en="[Project Title]" data-bn="[প্রজেক্টের শিরোনাম]">[প্রজেক্টের শিরোনাম]</h3>
+         
+          <a href="#" class="project-link" data-en="View details →" data-bn="বিস্তারিত দেখুন →">বিস্তারিত দেখুন →</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">♻️</div>
+        <div class="project-body">
+          <h3 data-en="[Project Title]" data-bn="[প্রজেক্টের শিরোনাম]">[প্রজেক্টের শিরোনাম]</h3>
+          
+          <a href="#" class="project-link" data-en="View details →" data-bn="বিস্তারিত দেখুন →">বিস্তারিত দেখুন →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <p class="section-eyebrow" data-en="Contact" data-bn="যোগাযোগ">যোগাযোগ</p>
+    <h2 class="section-title" data-en="Let's connect" data-bn="যোগাযোগ করুন">যোগাযোগ করুন</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <a class="contact-item" href="mailto:shadikullla2459@gmail.com">
+          <span class="contact-icon">✉️</span>
+          <div><span data-en="Email" data-bn="ইমেইল">ইমেইল</span><strong>shadikullla2459@gmail.com</strong></div>
+        </a>
+        <a class="contact-item" href="tel:+8801628662245">
+          <span class="contact-icon">📞</span>
+          <div><span data-en="Phone" data-bn="ফোন">ফোন</span><strong>+8801628662245</strong></div>
+        
+        <a class="contact-item" href="https://github.com/SM-Shadik" target="_blank" rel="noopener">
+          <span class="contact-icon">💻</span>
+          <div><span>GitHub</span><strong>SM-Shadik</strong></div>
+        </a>
+        <a class="contact-item" href="https://www.facebook.com/s.m.shadikulla.2024/" target="_blank" rel="noopener">
+          <span class="contact-icon">📘</span>
+          <div><span>Facebook</span><strong>SM Shadikulla </strong></div>
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="fname" data-en="Name" data-bn="নাম">নাম</label>
+          <input type="text" id="fname" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="femail" data-en="Email" data-bn="ইমেইল">ইমেইল</label>
+          <input type="email" id="femail" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="fmsg" data-en="Message" data-bn="বার্তা">বার্তা</label>
+          <textarea id="fmsg" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary ripple-btn" data-en="Send Message" data-bn="বার্তা পাঠান">বার্তা পাঠান</button>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Md. Shadikulla Sarker. <span data-en="Grown with care 🌱" data-bn="যত্নে গড়া 🌱">যত্নে গড়া 🌱</span></p>
+    <div class="visitor-counter">
+      <span data-en="Visitors:" data-bn="ভিজিটর:">ভিজিটর:</span>
+      <strong id="visitorCount">—</strong>
+    </div>
+  </div>
+</footer>
+
+<div class="search-results" id="searchResults" hidden></div>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
