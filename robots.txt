@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sm-shadik.github.io/shadikulla.github.io/sitemap.xml
