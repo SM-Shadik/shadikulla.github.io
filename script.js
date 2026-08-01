@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const message = document.getElementById('fmsg').value;
     const subject = encodeURIComponent('Portfolio contact from ' + name);
     const body = encodeURIComponent(message + '\n\n— ' + name + ' (' + email + ')');
-    window.location.href = `mailto:your.email@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:shadikulla2459@gmail.com?subject=${subject}&body=${body}`;
   });
 
   /* ---------- FOOTER YEAR ---------- */
